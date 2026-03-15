@@ -1,6 +1,4 @@
 #root {
     width: 100%;
-    height: 100vh;
-    text-align: center;
-    display: flex;
+    min-height: 100vh;
 }
