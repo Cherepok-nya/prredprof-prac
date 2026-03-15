@@ -9,7 +9,7 @@
     font-weight: 400;
     text-align: center;
 
-    background-color: #13152A;
+    background-color: #FAF0CA;
     color: rgba(255, 255, 255, 0.87);
 }
 
@@ -19,4 +19,12 @@ body {
     place-items: center;
     min-width: 100%;
     min-height: 100vh;
+}
+.header-text{
+    background-color: #0D3B66;
+    width: 100vw;
+   padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

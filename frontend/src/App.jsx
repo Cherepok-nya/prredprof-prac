@@ -1,10 +1,10 @@
 import './App.css'
 import styled from "@emotion/styled"
+import Header from "./Header"
 
 const Page = styled.div`
     height: 100%;
     width: 100%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@ const Page = styled.div`
 const App = () => {
     return (
         <Page>
-            Hello
+            <Header></Header>
         </Page>
     )
 }
